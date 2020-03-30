@@ -1,34 +1,43 @@
-# temp
+# Stack1O1
+> 200개 스타트업은 어떤 기술 스택을 사용할까?
 
-## Project setup
-```
-npm install
-```
+## Project Status
+---
+현재 개발 진행중
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Installation and Setup Guide
+---
 
-### Run your unit tests
-```
-npm run test:unit
-```
+Installation:
+`npm install`
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+To Run Test Suite:
+- Unit & Integration Test
+  - `npm run test:unit`
+- E2E Test
+  - `npm run test:e2e`
+- UI Components
+  - `npm run storybook`
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Folder Structure
+---
+
+    .
+    ├── .storybook              # Storybook setup
+    ├── public                  # Root index.html
+    ├── src                     # Source files
+    │   ├── api
+    │   ├── assets              # font, image, styles
+    │   ├── components
+    │   │   ├── ...
+    │   │   │   ├── stories     # component Storybook code
+    │   ├── router        
+    │   ├── store
+    │   ├── views
+    ├── tests                   # Automated tests (Unit, E2E)
+    │   ├── e2e
+    │   ├── unit               
+    └── README.md
+    
