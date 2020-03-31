@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import sample from './modules/sample';
+import sample from './modules/sample.store';
 
 Vue.use(Vuex);
 

@@ -9,11 +9,11 @@ export default {
     });
   },
 
-	setSample(payload) {
-		return base.post('setSample', payload).catch(err => {
-			if (err.request) {
-				throw new Error(err.request);
-			}
-		})
-	},
+  setSample(payload) {
+    return base.post('setSample', payload).catch(err => {
+      if (err.request) {
+        throw new Error(err.request);
+      }
+    });
+  },
 };

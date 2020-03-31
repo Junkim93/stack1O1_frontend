@@ -13,7 +13,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     "comma-dangle": ["error", {
         "arrays": "never",
-        "functions": "never"
+        "functions": "never",
         "objects": "always",
         "imports": "always",
         "exports": "always",
