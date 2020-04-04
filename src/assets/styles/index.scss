@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'base/reset';
+
+// 반응형 예시
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default css for extra small devices
+body {
+  background: orange;
+}
+
+// Small devices (landscape phones, 576px and up)
+@include respond-above(xs) {
+  body {
+    background: green;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@include respond-above(sm) {
+  body {
+    background: blue;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@include respond-above(md) {
+  body {
+    background: purple;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include respond-above(lg) {
+  body {
+    background: black;
+  }
+}
+
