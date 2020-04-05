@@ -1,0 +1,7 @@
+@mixin alternative {
+  line-height: 0 !important;
+  font-size: 0 !important;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
