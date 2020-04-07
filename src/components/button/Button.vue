@@ -1,17 +1,20 @@
 <template>
-    <button class="button" :class="`button-color--${color}`">
-        <slot></slot>
-    </button>
+  <button
+    class="button"
+    :class="`button-color--${color}`"
+  >
+    <slot />
+  </button>
 </template>
 
 <script>
 export default {
-    props: {
-        color: {
-            type: String,
-            default: 'normal', // 'normal' or 'primary'
-        },
+  props: {
+    color: {
+      type: String,
+      default: 'normal', // 'normal' or 'primary'
     },
+  },
 };
 </script>
 

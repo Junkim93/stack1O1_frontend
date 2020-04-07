@@ -7,17 +7,15 @@ const mutations = {
 };
 
 const actions = {
-  async setSample({ commit }, payload) {
-    const { data: { sample } } = await sampleAPI.setSample(payload);
+  async setSample({ commit, }, payload) {
+    const { data: { sample, }, } = await sampleAPI.setSample(payload);
     commit('SET_SAMPLE', sample);
-  }
+  },
 };
 
 const state = {
   samples: [],
 };
-
-const getters = {};
 
 export default {
   namespaced: true,

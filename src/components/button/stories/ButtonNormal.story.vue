@@ -1,13 +1,13 @@
 <template>
-	<Button>Normal Button</Button>
+  <Button>Normal Button</Button>
 </template>
 
 <script>
 import Button from '../Button.vue';
 
 export default {
-	components: { Button },
-}
+  components: { Button, },
+};
 </script>
 
 <include-source>src/components/button/stories/ButtonNormal.story.vue</include-source>
