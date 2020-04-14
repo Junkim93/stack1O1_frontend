@@ -1,0 +1,242 @@
+// Noto Sans CJK KR
+//
+// https://www.google.com/get/noto/#/family/noto-sans-kore
+@include font-face(
+  $font-family-NotoSansCJKKr,
+  $font-family-NotoSansCJKKr-DemiLight-src,
+  $font-weight-demilight,
+  normal,
+  otf
+);
+
+@include font-face(
+  $font-family-NotoSansCJKKr,
+  $font-family-NotoSansCJKKr-Regular-src,
+  $font-weight-normal,
+  normal,
+  otf
+);
+
+@include font-face(
+  $font-family-NotoSansCJKKr,
+  $font-family-NotoSansCJKKr-Medium-src,
+  $font-weight-medium,
+  normal,
+  otf
+);
+
+@include font-face(
+  $font-family-NotoSansCJKKr,
+  $font-family-NotoSansCJKKr-Bold-src,
+  $font-weight-bold,
+  normal,
+  otf
+);
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0; 
+  vertical-align: baseline; 
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  overflow: hidden;
+  line-height: 1.2;
+  font-family: $font-family-NotoSansCJKKr;
+  font-weight: $font-weight-normal;
+  -webkit-font-smoothing: antialiased; 
+  background: #fff;
+  -webkit-text-size-adjust: 100%; //fix for iOS
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: $font-family-NotoSansCJKKr;
+  font-weight: $font-weight-normal;
+  font-size: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select {
+  text-indent: 0.01px;
+  text-overflow: "";
+  border: 0;
+  border-radius: 0;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button, span, p, a, div {
+  user-select: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none !important;
+  outline: 0 !important;
+  background: transparent;
+  line-height: normal;
+  cursor: pointer;
+  -moz-user-select: text;
+}
