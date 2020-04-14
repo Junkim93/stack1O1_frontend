@@ -12,4 +12,4 @@ export default {
 };
 </script>
 
-<include-source>src/components/button/stories/ButtonPrimary.story.vue</include-source>
+<include-source>src/components/atoms/button/stories/ButtonPrimary.story.vue</include-source>

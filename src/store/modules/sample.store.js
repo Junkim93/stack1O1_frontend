@@ -1,21 +1,8 @@
-import sampleAPI from '@/api/sample/sample.api.js';
+const mutations = {};
 
-const mutations = {
-  SET_SAMPLE(state, sample) {
-    state.sample = sample;
-  },
-};
+const actions = {};
 
-const actions = {
-  async setSample({ commit, }, payload) {
-    const { data: { sample, }, } = await sampleAPI.setSample(payload);
-    commit('SET_SAMPLE', sample);
-  },
-};
-
-const state = {
-  samples: [],
-};
+const state = {};
 
 export default {
   namespaced: true,
